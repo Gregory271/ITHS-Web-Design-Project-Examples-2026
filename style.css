@@ -1,0 +1,42 @@
+body{
+    background-color:black;
+    color:white;
+    text-align:center;
+}
+h1 span{
+    color:red;
+}
+h1{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 2rem;
+}
+h3{
+    width:80%;
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: 1.5rem;
+}
+nav ul{
+    list-style-type:none;
+    
+}
+nav a{
+    color:aquamarine;
+    font-size: 1.2rem;
+}
+nav li{
+    margin:1em 0;
+}
+
+@media (min-width: 769px) {
+    h1 {
+        font-size: 3rem;
+    }
+    nav a {
+        font-size: 1.5rem;
+    }
+}
+
