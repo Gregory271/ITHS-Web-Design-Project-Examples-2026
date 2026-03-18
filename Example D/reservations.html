@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanikā Sushi - Reservations</title>
+    <link rel="stylesheet" href="reservations.css">
+</head>
+<body>
+
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+  </style>
+
+  <div class="navbar">
+<a href ="./home.html"> Go Back </a>
+</div>
+<br>
+<br>
+
+    <header>
+        <h1>Kanikā Sushi</h1>
+        <p class="subtitle">Reserve Your Table</p>
+    </header>
+
+    <section class="reservation-container">
+        <h2>Make a Reservation</h2>
+
+        <form action="#" method="post" class="reservation-form">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Reservation Date</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Reservation Time</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="guests">Number of Guests</label>
+            <select id="guests" name="guests" required>
+                <option value="1">1 Person</option>
+                <option value="2">2 People</option>
+                <option value="3">3 People</option>
+                <option value="4">4 People</option>
+                <option value="5">5 People</option>
+                <option value="6+">6+ People</option>
+            </select>
+
+            <button type="submit">Reserve Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Kanikā Sushi Restaurant</p>
+        <p>980 6th Ave, New York, NY 10018</p>
+    </footer>
+
+</body>
+</html>

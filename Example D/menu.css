@@ -1,0 +1,134 @@
+/* Box-sizing reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+
+/* Remove default list styles */
+ul[class], ol[class] {
+  list-style: none;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  scroll-behavior: smooth;
+}
+
+/* Fluid images */
+img {
+  max-width: 100%;
+  
+}
+
+/* Inherit font styles for form elements */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* Improve link readability */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Basic flow for content within articles */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Remove all animations, transitions and scroll-behavior for people that prefer reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+
+body{
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Inknut Antiqua', serif;
+  background-color:#211C15 ;
+}
+
+.navbar {
+  overflow: hidden;
+  float:left;
+  text-decoration: none;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:14px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.menu {
+  color: white;
+  text-align: center;
+}
+ 
+.roll{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-grid > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+ 
+.image-grid > div > p {
+  position: static;
+  transform: none;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+p {
+  color: white;
+  margin-left: 7px;
+  font-weight: normal;
+}
+
+ 

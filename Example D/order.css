@@ -1,0 +1,73 @@
+body {
+     font-family: 'Inknut Antiqua', serif;
+  background-color:#2f4827;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(208, 32, 32, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2f4827;
+    margin-bottom: 20px;
+    font-size: 3vh;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 12px 0;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-price {
+    color: #444;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+button {
+    background: #2f4827;
+    color: white;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #162012;
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:17px;
+  text-decoration: underline;
+}
