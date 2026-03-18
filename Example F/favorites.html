@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Favorites – Ani!List</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="favorites.css">
+</head>
+<body>
+
+<div class="title">
+    <h1>My Favorite Anime</h1>
+</div>
+
+<button class="back-button">← Back to Home</button>
+
+<fieldset class="add-form">
+    <legend class="add_fav">➕ Add Manually</legend>
+    <input id="titleInput" placeholder="Title" />
+    <input id="imgInput" placeholder="Image URL" />
+    <input type="button" class="form-button" value="Add to Favorites" />
+</fieldset>
+
+<div id="empty-msg" class="empty-msg">No favorites yet. Go add some! ⭐</div>
+<div class="favorites-grid" id="favorites-grid"></div>
+
+<script src="favorites.js"></script>
+</body>
+</html>

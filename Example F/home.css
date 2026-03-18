@@ -1,0 +1,126 @@
+body {
+    background-color: #121212;
+}
+.upcoming_header {
+
+    color: #FFFFFF;
+    font-family: "Space Mono", monospace;
+    font-size: 23px;
+}
+
+.fav_button{
+    float: right;
+    background-color: #121212;
+    border: 2px solid #BB86FC;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+    font-family: "Space Mono", monospace,bold;
+}
+
+.upcoming-list
+{
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.title {
+    color: #FFFFFF;
+    font-family: "Space Mono", monospace;
+    border-bottom: 2px solid #BB86FC;
+    margin: -5px;
+}
+.a_title {
+    color: #FFFFFF;
+    font-size: 21px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.Top_Anime_header{
+    color: #FFFFFF;
+    font-family: "Space Mono", monospace;
+    font-size: 23px;
+    border-bottom: 2px solid #BB86FC;
+}
+
+.list_img {
+    border-radius: 10px;
+    display: grid;
+}
+
+.list_a {
+    margin: 60px;
+    padding: 10px;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+}
+
+.view,.view2 {
+    background-color: #1E1E1E;
+    border: 2px solid #BB86FC;
+    color: #FFFFFF;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+   float: right;
+}
+
+.back-button {
+    background-color: #1E1E1E;
+    border: 2px solid #BB86FC;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 4px 6px;
+    
+}
+
+
+.top-anime-list {
+    font-family: "Space Mono", monospace;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.list_b {
+   
+    margin: 60px;
+    padding: 10px;
+    background-color: #1E1E1E;
+    border-radius: 10px;
+}
+
+.add{
+
+   
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.add-fav-btn {
+    background-color: transparent;
+    border: 2px solid #BB86FC;
+    color: #BB86FC;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-family: "Space Mono", monospace;
+    font-size: 13px;
+    margin-top: 6px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.add-fav-btn:hover:not(:disabled) {
+    background-color: #BB86FC;
+    color: #121212;
+}
+
+.add-fav-btn:disabled {
+    border-color: #555;
+    color: #555;
+    cursor: default;
+}
