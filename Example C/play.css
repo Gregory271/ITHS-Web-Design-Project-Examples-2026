@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  background: url('./backgrounds/game-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #F0F8FF;
+  /* Fallback background color */
+  background-color: #1e1e2f;
+}
+
+a {
+  color: #F0F8FF;
+}
+
+.shade {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: grey;
+  color: white;
+  background: linear-gradient(to bottom, black, #4b4b4b);
+  width: 300px;
+}
+
+.shade:hover {
+  background-color: darkred;
+  border-color: black;
+  font-size: 19px;
+  width: 325px;
+}
+
+.monk {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: orange;
+  color: white;
+  background: linear-gradient(to bottom, orange, #ffcc80);
+  width: 300px;
+}
+
+.monk:hover {
+  background-color: darkred;
+  border-color: black;
+  font-size: 19px;
+  width: 325px;
+}
+
+.alice {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #F0F8FF;
+  color: blue;
+  background: linear-gradient(to bottom, #dcf3ff, #a3d8ff);
+  width: 300px;
+}
+
+.alice:hover {
+  background-color: darkred;
+  border-color: black;
+  font-size: 19px;
+  width: 325px;
+}
+
+.witch {
+  color: blue;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8);
+}
+
+table {
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border-collapse: collapse;
+  width: 50%;
+  background-color: #2e2e3f;
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}

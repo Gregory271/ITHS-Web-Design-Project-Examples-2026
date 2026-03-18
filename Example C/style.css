@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('./backgrounds/game-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #F0F8FF;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    /* Fallback background color */
+    background-color: #1e1e2f;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8);
+  }
+  
+  .shade {
+    background: linear-gradient(to bottom, black, #4b4b4b);
+    color: white;
+    width: 300px;
+  }
+  
+  .monk {
+    background: linear-gradient(to bottom, orange, #ffcc80);
+    color: white;
+    width: 300px;
+  }
+  
+  .alice {
+    background: linear-gradient(to bottom, #dcf3ff, #a3d8ff);
+    color: blue;
+    width: 300px;
+  }
+  
+  .moveset, .home {
+    width: 300px;
+  }
+  
+  .ability {
+    background: linear-gradient(to bottom, #850700, #ff4d4d);
+    color: #DCF3FF;
+  }
+  
+  .ultimate {
+    background: linear-gradient(to bottom, black, #4b4b4b);
+    color: #DCF3FF;
+  }
+  
+  .items {
+    background: linear-gradient(to bottom, rgb(3, 186, 30), #a3ff80);
+    color: #DCF3FF;
+  }
+  
+  #battle-log {
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    height: 150px;
+    overflow-y: auto;
+    background: rgba(46, 46, 62, 0.8);
+    border-radius: 10px;
+  }
+  
+  #animation-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin-bottom: 10px;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    border-radius: 15px;
+  }
+  
+  #move-animation {
+    display: none;
+    border: 3px solid white;
+    border-radius: 10px;
+  }
+  
+  .ultimate-box {
+    box-shadow: 0 0 20px 5px white;
+    border-radius: 15px;
+  }
+  
+  .shade-ult {
+    box-shadow: 0 0 30px 10px purple;
+  }
+  
+  .xiolin-ult {
+    box-shadow: 0 0 30px 10px gold;
+  }
+  
+  .alice-ult {
+    box-shadow: 0 0 30px 10px lightblue;
+  }
+  
+  .hud {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .player-hud {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background: rgba(46, 46, 62, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid #333;
+  }
+  
+  .portrait {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border: 2px solid #333;
+    border-radius: 10px;
+  }
+  
+  .bar-label {
+    font-weight: bold;
+  }
+  
+  .health-bar, .ult-bar {
+    width: 200px;
+    height: 20px;
+    background: #444;
+    border: 1px solid #222;
+    margin: 5px 0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .fill {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .red {
+    background: linear-gradient(to right, crimson, darkred);
+  }
+  
+  .blue {
+    background: linear-gradient(to right, deepskyblue, blue);
+  }
+  
+  #attack-bar {
+    margin: 20px auto;
+    width: 300px;
+    height: 50px;
+    position: relative;
+  }
+  
+  #attack-bar-container {
+    width: 100%;
+    height: 20px;
+    background: #444;
+    border: 1px solid #222;
+    position: relative;
+    border-radius: 5px;
+  }
+  
+  #attack-bar-fill {
+    width: 0;
+    height: 100%;
+    background: linear-gradient(to right, crimson, darkred);
+    position: absolute;
+    border-radius: 5px;
+  }
+  
+  #attack-bar-target {
+    width: 20px;
+    height: 100%;
+    background: gold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+  }
+  
+  #attack-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #850700, #ff4d4d);
+    color: white;
+    border: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  #attack-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.8);
+  }

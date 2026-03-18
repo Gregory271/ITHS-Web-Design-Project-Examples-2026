@@ -1,0 +1,40 @@
+body{
+  text-align:center;
+      background: url('./backgrounds/game-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment: fixed;
+      color: #F0F8FF;
+      /* Fallback background color */
+      background-color:#1e1e2f;
+    }
+    button{
+      padding: 10px 20px;
+        margin: 10px;
+        font-size: 16px;
+        cursor: pointer;
+        border-color:grey;
+      color: #F0F8FF;
+      background-color:black;
+      width: 150px;
+    }
+    a{
+        color: #F0F8FF;
+    }
+    button:hover {
+      background-color: darkred;
+      border-color:black;
+      font-size: 19px;
+    }
+    table{
+      margin: 0px auto; 
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      border-collapse: collapse;
+      width: 50%;
+      background-color: #2e2e3f;
+      text-align:left;
+    }
+    table, th, td {
+      border: 1px solid;
+    }
